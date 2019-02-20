@@ -11,7 +11,7 @@ ava
 
 Screenshot
 
-[Screenshot](https://i.imgur.com/yJzaJtm.png)
+![Screenshot](https://i.imgur.com/yJzaJtm.png)
 
 Error detail
 
