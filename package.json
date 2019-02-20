@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "ava": "^1.2.1",
+    "commander": "^2.19.0"
+  }
+}
