@@ -3,12 +3,19 @@ var program = require('commander');
 
 const run = (args) => {
 	program
-	.option('--no-sauce', 'Remove sauce')
-	.parse(args);
+		.option('--no-sauce', 'Remove sauce')
+		.parse(args);
 
-	console.log('you ordered a pizza');
-	if (program.sauce) console.log('  with sauce');
-	else console.log(' without sauce');
+	let result = 'you ordered a pizza';
+
+	if (program.sauce) {
+		result += '  with sauce';
+	} else {
+		result += ' without sauce';
+	}
+
+	console.log(result);
+	return result;
 }
 
 const cli = !module.parent
